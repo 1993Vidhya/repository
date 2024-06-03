@@ -41,6 +41,11 @@ public class AnimalListingElements extends AndroidActions {
 
 	@AndroidFindBy(className = "android.widget.ImageView")
 	private WebElement qatarlivestockelemnt;
+	
+	@AndroidFindBy(className = "android.widget.ImageView")
+	private WebElement qatarlivestockelemnt1;
+
+	
 
 	@AndroidFindBy(id = "sName")
 	private List<WebElement> speciesnamehome;
